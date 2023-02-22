@@ -331,8 +331,11 @@ img {
     color: #fff;
     width: 180px;
     background: #FF9900;
-    padding: 13px 40px 13px 40px;
     border-radius: 4px;
+    line-height: 50px;
+    width: 180px;
+    text-align: center;
+    
 }
 
 .section-superpowers_photo {
@@ -413,6 +416,21 @@ img {
 
 .mr_0 {
     margin: 0;
+}
+
+.mb_70 {
+    margin-bottom: 70px;
+}
+
+.button-tools {
+    display: inline-block;
+    margin: auto;
+
+}
+
+.center {
+    margin-right: 514px;
+    margin-left: 514px;
 }
 
 
