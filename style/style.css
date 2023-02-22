@@ -185,7 +185,7 @@ h1,h2,h3,h4 {
 
 a {
     text-decoration: none;
-    color: #2F281E;
+    /* color: #2F281E; */
 }
 
 img {
@@ -196,7 +196,7 @@ img {
     font-size: 44px;
     line-height: 54px;
     max-width: 500px;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
 }
 
 .title {
@@ -235,15 +235,13 @@ img {
     display: inline-block;
 }
 
-.header-nav_li:hover {
+.header-nav_li:hover, .header-nav_li__mr_0:hover {
     color: #FF9900;
 }
 
 .header-logo {
     vertical-align: middle;
     margin-right: 198px;
-    margin-left: 15px;
-
 }
 
 .header-logo, .header-buttons_block {
@@ -255,6 +253,7 @@ img {
     display: inline-block;
     list-style: none;
     margin-right: 198px;
+    vertical-align: middle;
 
 }
 
@@ -317,27 +316,40 @@ img {
     color: #544837;
     max-width: 500px;
     line-height: 28px;
-    margin-bottom: 20px;
-}
-
-.block__btn {
-    display: inline-block;
-    max-width: 180px;
-    background-color: #FF9900;
-    padding: 13px 40px 13px 40px;
-    border-radius: 4px;
+    margin-bottom: 26px;
 }
 
 .button {
+    display: inline-block;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
+    width: 180px;
+    background: #FF9900;
+    padding: 13px 40px 13px 40px;
+    border-radius: 4px;
 }
 
 .section-superpowers_photo {
     width: 644px;
     height: 495px;
+}
+
+.section-superpowers_item {
+    float: left;
+    padding-top: 97px;
+}
+
+.section-superpowers_block__photo {
+    float: right;
+    text-align: center;
+}
+
+.button:hover {
+    color: #2F281E;
+    background: #fff;
+    border: 1px solid #BCD0E5;
 }
 
 
