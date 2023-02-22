@@ -367,8 +367,6 @@ img {
 /* <====#section TOOLS=> */
 
 .section-tools {
-    /* position: relative; */
-    background:  linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
     padding-top: 99px;
     font-size: 0px;
 }
@@ -435,3 +433,4 @@ img {
 
 
 /* <====#section#TOOLS=> */
+
