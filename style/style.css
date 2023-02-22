@@ -310,6 +310,10 @@ img {
 
 /* <====#section SUPERPOWERS=> */
 
+.clear {
+    clear: both;
+}
+
 .section-superpowers_text {
     font-weight: 400;
     font-size: 18px;
@@ -353,7 +357,56 @@ img {
 }
 
 
-
-
-
 /* <====#section#SUPERPOWERS=> */
+
+
+
+/* <====#section TOOLS=> */
+
+.section-tools {
+    position: relative;
+    background:  linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+    padding-top: 99px;
+    font-size: 0px;
+}
+
+.section-tools_block__cards {
+    display: inline-block;
+}
+
+.section-tools_block {
+    display: inline-block;
+    max-width: 270px;
+}
+
+.icon_img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.section-tools_text__bold {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.82px;
+    margin-bottom: 16px;
+}
+
+.section-tools_text__lite {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.section-title_tools {
+    text-align: center;
+    max-width: 539px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+
+
+
+/* <====#section#TOOLS=> */
