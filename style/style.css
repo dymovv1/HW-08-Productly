@@ -606,7 +606,7 @@ img {
     line-height: 30px;
     font-weight: 700;
     max-width: 280px;
-
+    font-family: 'Montserrat' sans-serif;
 }
 
 .line::before{
