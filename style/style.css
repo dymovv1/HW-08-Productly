@@ -369,9 +369,27 @@ img {
 
 .section-tools {
     padding-top: 99px;
+    padding-bottom: 74px;
     font-size: 0px;
+    background-image: url(../img/bg.png);
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.section-tools_block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.section-tools_block:hover {
+    background-color: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);;
+    color: #000;
+}
+    
 .section-tools_block__cards {
     display: inline-block;
 }
@@ -380,6 +398,8 @@ img {
     max-width: 270px;
     float: left;
     margin-right: 40px;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .icon_img {
@@ -422,15 +442,13 @@ img {
 }
 
 .button-tools {
-    display: inline-block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 11px;
 
 }
 
-.center {
-    margin-right: 514px;
-    margin-left: 514px;
-}
+
 
 
 /* <====#section#TOOLS=> */
