@@ -211,6 +211,68 @@ img {
     color: #544837;
 }
 
+.subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
+.pt_45 {
+    padding-top: 45px; 
+}
+
+.mb_32 {
+    margin-bottom: 32px;
+}
+
+.mb_42 {
+    margin-bottom: 42px;
+}
+
+.mb_13 {
+    margin-bottom: 13px;
+}
+
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+.mb_12 {
+    margin-bottom: 12px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.pb_50 {
+    padding-bottom: 50px;
+}
+
+.pt_104 {
+    padding-top: 104px;
+}
+
+.pt_100 {
+    padding-top: 100px;
+}
+
+.pt_96 {
+    padding-top: 96px;
+}
 /* <====HEADER====> */
 
 .header {
@@ -336,6 +398,7 @@ img {
     width: 180px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s;
     
 }
 
@@ -400,6 +463,7 @@ img {
     margin-right: 40px;
     transition: all 0.3s;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .icon_img {
@@ -448,8 +512,59 @@ img {
 
 }
 
-
-
-
 /* <====#section#TOOLS=> */
 
+/* <<<SECTION BENEFITS>>> */
+
+.benefits-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-block_text {
+    max-width: 525px;
+    padding-top: 21px;
+}
+
+.text-orange {
+    display: inline-flex;
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    max-width: 440px;
+}
+
+.text-orange::before {
+    display: block;
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #FF9900 url(../img/Path.svg) no-repeat center;
+    border-radius: 10px;
+    position: absolute;
+    left: -65px;
+    top: 8px;
+}
+
+.benefits-block_text--orange {
+    display: flex;
+    flex-direction: column;
+    max-width: 505px;
+    padding-top: 48px;
+
+}
+
+.block_text_orange {
+    margin-left: 65px;
+}
+
+.benefits_text_marketers {
+    max-width: 486px;
+}
+
+.benefits-block_text__marketers{
+    padding-top: 40px;
+}
+/* <<<SECTION#BENEFITS>>> */
