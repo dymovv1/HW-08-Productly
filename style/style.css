@@ -648,4 +648,13 @@ input::placeholder {
     padding-left: 10px;
   }
 
+.footer_text_hover {
+    transition: all 0.3s;
+}
+
+.footer_text_hover:hover {
+    color:#FF9900;
+    
+}
+
 /* <<<!!!FOOTER!!! */
