@@ -242,8 +242,20 @@ img {
     margin-bottom: 12px;
 }
 
+.mb_25{
+    margin-bottom: 25px;
+}
+
 .mb_30 {
     margin-bottom: 30px;
+}
+
+.mr_147{
+    margin-right: 147px;
+}
+
+.mr_154{
+    margin-right: 154px;
 }
 
 .mb_20 {
@@ -262,8 +274,16 @@ img {
     padding-bottom: 50px;
 }
 
+.mb_15 {
+    margin-bottom: 15px;
+}
+
 .pt_104 {
     padding-top: 104px;
+}
+
+.pb_100 {
+    padding-bottom: 100px;
 }
 
 .pt_100 {
@@ -568,3 +588,64 @@ img {
     padding-top: 40px;
 }
 /* <<<SECTION#BENEFITS>>> */
+
+/* <<<FOOTER>>> */
+
+.footer_block {
+    display: flex;
+}
+
+.footer_block_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_block_list__title {
+    color: #2F281E;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    max-width: 280px;
+
+}
+
+.line::before{
+    display: block;
+    content: "";
+    border: 1px solid rgba(188, 208, 229, 0.496913);;
+}
+
+.footer_block_photo {
+    margin-right: 130px;
+}
+
+#telephone {
+    width: 340px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    line-height: 19.5px;
+    color: #2F281E;
+    transition: all 0.3s;
+}
+
+#telephone:hover {
+    border: 1px solid #FF9900;
+}
+
+#telephone:focus {
+    box-shadow: 4px 4px 4px #FF9900;
+}
+
+input::placeholder {
+    color: #BCD0E5;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    line-height: 19.5px;
+    padding-left: 10px;
+  }
+
+/* <<<!!!FOOTER!!! */
