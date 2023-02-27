@@ -160,6 +160,24 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: Bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 *,
 *:before,
 *:after {
@@ -209,6 +227,10 @@ img {
     font-size: 16px;
     line-height: 26px;
     color: #544837;
+}
+
+.mb_23 {
+    margin-bottom: 23px;
 }
 
 .subtitle {
@@ -406,7 +428,9 @@ img {
 }
 
 .button {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -416,10 +440,7 @@ img {
     border-radius: 4px;
     line-height: 50px;
     width: 180px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    transition: all 0.3s;
-    
+    transition: all 0.3s;    
 }
 
 .section-superpowers_photo {
@@ -593,6 +614,8 @@ img {
 
 .footer_block {
     display: flex;
+    padding-top: 66px;
+    padding-bottom: 70px;
 }
 
 .footer_block_list {
@@ -601,18 +624,24 @@ img {
 }
 
 .footer_block_list__title {
+    font-family: 'Gotham';
     color: #2F281E;
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
     max-width: 280px;
-    font-family: 'Montserrat' sans-serif;
 }
 
 .line::before{
     display: block;
     content: "";
-    border: 1px solid rgba(188, 208, 229, 0.496913);;
+    border: 1px solid rgba(188, 208, 229, 0.496913);
+    position: relative;
+    top: -3px;
+    left: 0%;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .footer_block_photo {
