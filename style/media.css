@@ -9,12 +9,27 @@
     
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 900px) {
     .container {
-        max-width: 1010px;
+        max-width: 920px;
         padding-right: 10px;
         padding-left: 10px;
 
+    }
+
+    .section-tools_block {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-tools_block__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-tools_text__lite {
+        text-align: center;
     }
     
 }

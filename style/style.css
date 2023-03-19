@@ -206,7 +206,7 @@ a {
 }
 
 img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .main-title {
@@ -451,8 +451,8 @@ img {
 }
 
 .section-superpowers_photo {
-    width: 644px;
-    height: 495px;
+    width: 100%;
+    height: 100%;
 }
 
 .section-superpowers_item {
