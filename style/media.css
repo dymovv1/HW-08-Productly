@@ -32,4 +32,24 @@
         text-align: center;
     }
     
+    .footer_block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer_block_photo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .header-nav_li, .header-nav_li__mr_0, .header-nav{
+        display: none;
+    }
+
+     .header-btn.white, .header-btn.orange, .header-buttons_block {
+        display: none;
+    }
 }
