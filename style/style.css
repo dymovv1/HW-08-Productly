@@ -323,7 +323,11 @@ img {
 .header {
     padding-bottom: 17px;
     padding-top: 17px;
-    margin-bottom: 71px;
+    /* margin-bottom: 71px; */
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 1px lightgray;
 }
 
 .header-logo {
@@ -416,6 +420,10 @@ img {
 
 /* <====#section SUPERPOWERS=> */
 
+
+.main {
+    padding-top: 150px
+}
 
 .section-superpowers_text {
     font-weight: 400;
