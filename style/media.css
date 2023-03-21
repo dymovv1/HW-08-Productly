@@ -44,12 +44,21 @@
 
 }
 
+
 @media screen and (max-width: 850px) {
-    .header-nav_li, .header-nav_li__mr_0, .header-nav{
+    .header-nav_li, .header-nav_li__mr_0, .header-nav {
         display: none;
     }
 
      .header-btn.white, .header-btn.orange, .header-buttons_block {
         display: none;
     }
+
+    .header-burger {
+        display: block;
+    }
+
 }
+
+
+
