@@ -47,3 +47,12 @@
     transform: scale(1.03);
     background-color:  #FF9900;
 }
+
+@media screen and (max-width: 850px) {
+    .header-burger {
+        display: block;
+        margin-left: 65%;
+    }
+
+
+}

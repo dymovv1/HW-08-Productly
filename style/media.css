@@ -46,16 +46,17 @@
 
 
 @media screen and (max-width: 850px) {
-    .header-nav_li, .header-nav_li__mr_0, .header-nav {
+
+    nav.header-nav {
+        display: none;
+    }
+
+    .header-nav_li, .header-nav_li__mr_0 {
         display: none;
     }
 
      .header-btn.white, .header-btn.orange, .header-buttons_block {
         display: none;
-    }
-
-    .header-burger {
-        display: block;
     }
 
 }
