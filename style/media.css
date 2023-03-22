@@ -61,5 +61,24 @@
 
 }
 
+@media screen and (max-width: 850px) {
+    .section-superpowers, .benefits-block  {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-superpowers__button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .benefits-block__img {
+        padding-top: 50px;
+    }
+}
+
+
 
 
