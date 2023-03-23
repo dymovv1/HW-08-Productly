@@ -420,11 +420,6 @@ img {
 
 /* <====#section SUPERPOWERS=> */
 
-
-.main {
-    padding-top: 150px
-}
-
 .section-superpowers_text {
     font-weight: 400;
     font-size: 18px;
@@ -649,6 +644,14 @@ img {
     max-width: 280px;
 }
 
+@media screen and (max-width: 850px){
+    .footer_block_list__title {
+        margin-right: 0px;
+        
+    }
+    
+}
+
 .line::before{
     display: block;
     content: "";
@@ -665,6 +668,14 @@ img {
     margin-right: 130px;
 }
 
+@media screen and (max-width: 850px){
+    .footer_block_photo {
+        margin-right: 0px;
+        
+    }
+    
+}
+
 #telephone {
     width: 340px;
     height: 50px;
@@ -676,6 +687,15 @@ img {
     line-height: 19.5px;
     color: #2F281E;
     transition: all 0.3s;
+}
+
+@media screen and (max-width: 850px){
+    #telephone {
+        display: flex;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
 }
 
 #telephone:hover {
@@ -701,6 +721,20 @@ input::placeholder {
 .footer_text_hover:hover {
     color:#FF9900;
     
+}
+
+.footer_label {
+    display: block;
+}
+
+@media  screen and (max-width: 850px){
+
+    .footer_label {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
 }
 
 /* <<<!!!FOOTER!!! */
