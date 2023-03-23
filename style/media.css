@@ -51,13 +51,10 @@
         display: none;
     }
 
-    .header-nav_li, .header-nav_li__mr_0 {
+    .header-btn.white, .header-btn.orange, .header-buttons_block {
         display: none;
     }
 
-     .header-btn.white, .header-btn.orange, .header-buttons_block {
-        display: none;
-    }
 
 }
 
@@ -113,7 +110,23 @@
         justify-content: center;
     }
 
+    .header-nav.active {
+        display: block;
+      }
+
+      .header-logo.hidden {
+        display: none;
+    }
+
+    .header-btn.white.active, 
+    .header-btn.orange.active, 
+    .header-buttons_block.active {
+      display: block;
+    }
+
 }
+
+
 
 
 

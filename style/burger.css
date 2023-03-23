@@ -51,7 +51,8 @@
 @media screen and (max-width: 850px) {
     .header-burger {
         display: block;
-        margin-left: 65%;
+        position: absolute;
+        right: 10px;
     }
 
 
