@@ -29,7 +29,9 @@
 
 
             <div class="header-burger">
-                <span class="burger-menu"></span>
+                <div class="burger-menu"></div>
+                <div class="burger-menu"></div>
+                <div class="burger-menu"></div>
             </div>
 
 
@@ -341,23 +343,22 @@
 
     <script>
 
-const burger = document.querySelector('.header-burger');
-const logo = document.querySelector('.header-logo');
-const nav = document.querySelector('.header-nav');
-const btnwhite = document.querySelector('.header-btn.white');
-const btnorange = document.querySelector('.header-btn.orange');
-const blockbutton = document.querySelector('.header-buttons_block');
 
-burger.addEventListener('click', function() {
+    const burger = document.querySelector('.header-burger');
+    const logo = document.querySelector('.header-logo');
+    const nav = document.querySelector('.header-nav');
+    const btnwhite = document.querySelector('.header-btn.white');
+    const btnorange = document.querySelector('.header-btn.orange');
+    const blockbutton = document.querySelector('.header-buttons_block');
+
+    burger.addEventListener('click', function() {
     logo.classList.toggle('hidden');
     nav.classList.toggle('active');
     blockbutton.classList.toggle('active');
     btnwhite.classList.toggle('active');
     btnorange.classList.toggle('active');
-});
-
-
-
+    burger.classList.toggle('active');
+    });
 
     </script>
 
