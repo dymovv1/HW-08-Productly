@@ -360,11 +360,12 @@ img {
     font-weight: 400;
     line-height: 28px;
     font-size: 16px;
+
 }
 
 
 @media screen and (max-width: 850px) {
-    .header-nav_li,.header-nav_li__mr_0 {
+    .header-nav_li {
         font-size: 30px;
     }
     
@@ -373,6 +374,7 @@ img {
 .header-buttons_block {
     display: flex;
     gap: 32px;
+
 }
 
 .header-nav_li:hover, .header-nav_li__mr_0:hover {
@@ -385,7 +387,6 @@ img {
     display: flex;
     gap: 20px;
     align-items: center;
-
 }
 
 .header-btn {

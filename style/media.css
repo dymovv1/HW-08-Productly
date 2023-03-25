@@ -115,7 +115,9 @@
         flex-direction: column;
         margin-bottom: 60px;
         padding-top: 50px;
-      }
+        height: 100%;
+        height: 100%;
+    }
 
       .header-logo.hidden {
         display: none;
