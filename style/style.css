@@ -209,6 +209,14 @@ img {
     width: 100%;
 }
 
+@media screen and (max-width: 850px) {
+    .logo{
+        width: 150px;
+        height: 30px;
+    }    
+    
+}
+
 .main-title {
     font-size: 44px;
     line-height: 54px;
@@ -340,11 +348,26 @@ img {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 850px) {
+    .header-block{
+        display: block;
+    }
+    
+}
+
 .header-nav_li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     line-height: 28px;
     font-size: 16px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .header-nav_li,.header-nav_li__mr_0 {
+        font-size: 30px;
+    }
+    
 }
 
 .header-buttons_block {

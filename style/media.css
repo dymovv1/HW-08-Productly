@@ -111,7 +111,10 @@
     }
 
     .header-nav.active {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        padding-top: 50px;
       }
 
       .header-logo.hidden {
@@ -121,10 +124,13 @@
     .header-btn.white.active, 
     .header-btn.orange.active, 
     .header-buttons_block.active {
-      display: block;
+      display: flex;
+      justify-content: center;
     }
 
+
 }
+
 
 
 
